@@ -27,3 +27,31 @@ To comply with GDPR and general privacy guidelines:
   - Not contain confidential company details  
 
 ## 3. File Structure
+data/
+└── resumes/
+├── Resume.csv # Anonymized Kaggle dataset (text)
+├── synthetic_resume_1.txt # Example synthetic resume
+├── synthetic_resume_2.txt # Optional additional samples
+└── README.md # This file
+
+## 4. Usage Guidelines
+You may use these resume samples for:
+
+- NLP preprocessing experiments
+- Skills extraction pipelines
+- Classification or similarity models
+- Resume screening simulation
+- HR assistant chatbot testing
+
+You must **not** use this dataset for:
+- Real hiring decisions  
+- Identifying or tracking individuals  
+- Uploading or sharing real confidential resumes  
+
+## 5. Notes for Contributors
+If you add new resume samples:
+
+- Ensure all personally identifiable information (PII) is removed.
+- Prefer synthetic or AI-generated resumes.
+- Confirm that the content does not violate any copyright or confidentiality rules.
+- Update this README with a short description of new files.
